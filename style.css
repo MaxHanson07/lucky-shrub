@@ -51,6 +51,18 @@ section {
 
 article {
     flex: 1;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+article img {
+    width: 15rem;
+    height: 10rem;
 }
 
 footer {
