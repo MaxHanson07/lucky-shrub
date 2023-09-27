@@ -19,3 +19,12 @@ header > img {
     width: 3rem;
     height: auto;
 }
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
