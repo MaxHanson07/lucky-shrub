@@ -1,5 +1,5 @@
 body {
-    background-color: #EDEFEE;
+    background-color: #ededed;
     font-family: 'Markazi Text', serif;
     margin: 3rem 3rem 5% 5%;
 }
@@ -23,10 +23,26 @@ header > img {
 nav ul {
     list-style: none;
     text-align: center;
+    background-color: rgb(50, 48, 48);
+    border-radius: 1rem;
 }
 
 nav li {
     display: inline-block;
+    padding: 0.5rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: gray;
+}
+
+nav > ul > li:first-of-type {
+    color: wheat;
 }
 
 section {
