@@ -16,7 +16,7 @@ header > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 6rem;
+    width: 10rem;
     height: auto;
 }
 
@@ -25,11 +25,13 @@ nav ul {
     text-align: center;
     background-color: rgb(50, 48, 48);
     border-radius: 1rem;
+    height: 3rem;
 }
 
 nav li {
     display: inline-block;
     padding: 0.5rem;
+    font-size: 1.5rem;
 }
 
 nav li a {
@@ -80,18 +82,25 @@ section {
 
 article {
     flex: 1;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     border: 1px solid #ddd;
     border-radius: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
-    background-color: #fff;
+    background-color: #ffffff95;
+}
+
+article h1 {
+    color: rgb(53, 110, 91);
 }
 
 article img {
     width: 25rem;
     height: 20rem;
+    margin: auto;
 }
 
 footer {
@@ -103,6 +112,10 @@ footer div {
 }
 
 footer img {
-    width: 2rem;
+    width: 3rem;
     height: auto;
+}
+
+footer p {
+    text-align: right;
 }
