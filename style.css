@@ -40,7 +40,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: gray;
+    color: rgb(53, 110, 91);
 }
 
 nav > ul > li:first-of-type {
@@ -57,7 +57,7 @@ section {
     text-align: left;
     border-radius: 1rem;
     overflow: hidden;
-    height: 20rem;
+    height: 15rem;
 }
 
 .promotion img {
@@ -70,14 +70,15 @@ section {
     left: 0;
     opacity: 0.8;
     z-index: 0;
+    border-radius: 0;
 }
 
 .promotion h1 {
     position: relative;
     z-index: 2;
-    left: 20px;
+    left: 3rem;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: 4px 4px 6px rgba(.9, .9, .9, 0.9);
 }
 
 article {
@@ -101,6 +102,7 @@ article img {
     width: 25rem;
     height: 20rem;
     margin: auto;
+    border-radius: 50%;
 }
 
 footer {
